@@ -9,34 +9,56 @@ The Society of Hispanic Professional Engineers (SHPE) is the largest association
 
 [![MongoDB](https://skillicons.dev/icons?i=mongodb)](https://skillicons.dev)    **M**ongoDB
 
-[![MongoDB](https://skillicons.dev/icons?i=express)](https://skillicons.dev)    **E**xpress.js
+[![Express](https://skillicons.dev/icons?i=express)](https://skillicons.dev)    **E**xpress.js
 
-[![MongoDB](https://skillicons.dev/icons?i=react)](https://skillicons.dev)      **R**eact
+[![React](https://skillicons.dev/icons?i=react)](https://skillicons.dev)      **R**eact
 
-[![MongoDB](https://skillicons.dev/icons?i=nodejs)](https://skillicons.dev)     **N**ode.js
+[![Node](https://skillicons.dev/icons?i=nodejs)](https://skillicons.dev)     **N**ode.js
 
 ## Getting Started
 
-Begin by cloning the repository onto your machine - Click the green code button above the files listed in the GitHub repository page. It should show the clone option with HTTPS. Copy the web URL and open the terminal on your machine then change the terminal to the directory where you would like to clone the repository.
+Before starting, be sure you have done the following.
 
-Use `cd` to change directory and `ls` to list the contents of your current directory. *If on Windows, you can open the terminal or Git Bash into a given directory through right clicking on a given folder in the File Explorer.*
+* Created a GitHub account
+* Installed Git version control
+* Installed Node.js
+* Installed Visual Studio Code
 
-In the terminal, type the command `git clone ` and paste the link copied from the GitHub repository before hitting enter. It should execute similar to how it looks below and show the repository in the same directory. 
+Begin by first forking the original GitHub repository from UTDSHPE. This will allow us to make a copy of the repository under our own GitHub account.
 
-Open Visual Studio Code, or any other similar text editor or IDE, and open the folder of the repository.
+<img src="fork-repo.gif">
+
+To clone the repository onto your machine, click the green code button above the files listed in the GitHub repository page. It should show the clone option with HTTPS. Copy the web URL and open the terminal on your machine then change the terminal to the directory where you would like to clone the repository.
+
+<img src="clone-repo-github.PNG">
+
+Use `cd` to change directory, `ls` to list the contents of your current directory, or if needed, create a new directory with `mkdir`. *If on Windows, you can open the terminal or Git Bash into a given directory through right clicking on a given folder in the File Explorer.*
+
+In the terminal, type the command `git clone` and paste the link copied from the GitHub repository before hitting enter. It should execute similar to how it looks below and show the repository in the same directory. 
+
+<img src="clone-repo.gif">
 
 ### Creating the React client application and the Express.js server application
 
-Open the terminal of Visual Studio Code and make sure it is at the root directory of your cloned repository.
+Open Visual Studio Code, or any other similar text editor or IDE, and open the folder of the repository. Open the terminal of Visual Studio Code and make sure it is at the root directory of your cloned repository.
+
+<img src="open-local-repo.gif">
 
 Create the React client application by running `npx create-react-app client` in the terminal; alternatively, you can instead create the React client application using [Vite](https://vitejs.dev/guide/). A new folder should show up as 'client' or whatever you have named the React app in the root directory of the repository. This folder holds the files for our React client application.
 
-In the terminal of Visual Studio Code, change directory from the root terminal to the client folder by running `cd client` then run `npm install` to install dependency packages for the React client application. It will add all these files to a new folder called 'node_modules' under the client folder.
+<img src="create-react-app.gif">
 
-Create the Express.js server application by creating a new folder in the root directory of the repository called 'server'.
+<!-- In the terminal of Visual Studio Code, change directory from the root terminal to the client folder by running `cd client` then run `npm install` to install dependency packages for the React client application. It will add all these files to a new folder called 'node_modules' under the client folder. -->
 
-In the 'server' folder, create a new file called 'server.js' (yes it is simple as that)
+Create the Express.js server application by creating a new folder in the root directory of the repository called 'server' then create a new file in the folder called 'server.js' (yes it is simple as that)
 
-In the terminal of Visual Studio Code, change the directory from the client folder to the server folder by running `cd ../server`, or `cd ..` to return to the root directory of the repository from the client folder then `cd server`. Run `npm init` and follow the optional prompts to create a new Node.js project for your Express.js server then run `npm install express` to install the dependency packages for Express.js.
+<img src="create-server-js.gif">
 
-## Extra Resources
+In the terminal of Visual Studio Code, change the directory from the root folder to the server folder by running `cd server`. Run `npm init` and follow the optional prompts to create a new Node.js project for your Express.js server then run `npm install express` to install the dependency packages for Express.js.
+
+<img src="install-express.gif">
+
+Now it's up to you to code your full-stack project!!
+
+## Additional Resources
+
