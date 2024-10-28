@@ -1,4 +1,4 @@
-# Full-stack Software Development Workshop by SHPE UTD
+# Full-Stack Software Development Workshop by SHPE UTD
 
 Here is your starting repo for the SHPE UTD Full-Stack Software Development Workshop! 
 
@@ -7,13 +7,10 @@ The Society of Hispanic Professional Engineers (SHPE) is the largest association
 
 ### Tech Stack - M.E.R.N.
 
-[![MongoDB](https://skillicons.dev/icons?i=mongodb)](https://skillicons.dev)    **M**ongoDB
-
-[![Express](https://skillicons.dev/icons?i=express)](https://skillicons.dev)    **E**xpress.js
-
-[![React](https://skillicons.dev/icons?i=react)](https://skillicons.dev)      **R**eact
-
-[![Node](https://skillicons.dev/icons?i=nodejs)](https://skillicons.dev)     **N**ode.js
+* **MongoDB** - flexible document style NoSQL database
+* **Express.js** - lightweight backend framework for Node.js (JavaScript) server applications
+* **React** - extremely popular component based frontend UI framework 
+* **Node.js** - runtime language for programming and running JavaScript outside of the browser
 
 ## Getting Started
 
@@ -61,4 +58,7 @@ In the terminal of Visual Studio Code, change the directory from the root folder
 Now it's up to you to code your full-stack project!!
 
 ## Additional Resources
+
+* [Dave Gray: MERN Stack Tutorial Playlist](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6P4dQUsoDatjEGpmBpcOW8V)
+* [NetNinja: MERN Stack Crash Course Tutorial Playlist](https://www.youtube.com/playlist?list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE)
 
